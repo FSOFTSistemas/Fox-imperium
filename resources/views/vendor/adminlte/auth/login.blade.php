@@ -62,6 +62,11 @@
             border: 1px solid #000;
         }
 
+        .form-control:focus {
+            color: #000 !important; /* Texto preto ao digitar */
+            background-color: #fff; /* Mantém fundo branco ao focar */
+        }
+
         .form-control::placeholder {
             color: #000;
         }
